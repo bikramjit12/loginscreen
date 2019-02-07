@@ -1,0 +1,21 @@
+﻿<Window x:Class="loginscreen.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:loginscreen"
+        mc:Ignorable="d"
+        Title="loginwindow" Height="624.671" Width="642.434" FontSize="14" Background="Gold">
+    <Border Background="Black" Margin="20" CornerRadius="10">
+        <StackPanel Margin="20" >
+            <Label Content="Login" Foreground="White" HorizontalAlignment="Center" FontSize="25" ></Label>
+            <Separator></Separator>
+            <Label Content="username" Foreground="white"></Label>
+            <TextBox Name="txtusername" Background="LightGray" Foreground="White" FontSize="18"></TextBox>
+            <Label Content="password" Foreground="white"></Label>
+            <PasswordBox Name="txtpassword" Background="LightGray" Foreground="White" FontSize="18"/>
+            <Separator></Separator>
+            <Button Name="btnsubmit" Content="submit"  Click="BtnSubmit_OnClick" Width="100"  ></Button>
+        </StackPanel>
+    </Border>
+</Window>
